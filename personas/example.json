@@ -1,0 +1,10 @@
+{
+  "name": "Maria",
+  "description": "A 60-year-old retiree unfamiliar with technology. Moves slowly, reads everything carefully, often confused by icons without labels. Goal: complete a purchase.",
+  "goal": "Find the \"Diseña tu ciudad\" website from the Merida city government and register to vote for a park renovation project.",
+  "traits": [
+    "reads all visible text before clicking",
+    "avoids anything that looks like an ad",
+    "gets confused by modals and popups"
+  ]
+}

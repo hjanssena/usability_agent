@@ -1,0 +1,128 @@
+{
+  "persona": {
+    "name": "Maria",
+    "description": "A 60-year-old retiree unfamiliar with technology. Moves slowly, reads everything carefully, often confused by icons without labels. Goal: complete a purchase.",
+    "goal": "Successfully search for a video from the channel Fern that talks about North Korea",
+    "traits": [
+      "reads all visible text before clicking",
+      "avoids anything that looks like an ad",
+      "gets confused by modals and popups"
+    ]
+  },
+  "session_id": "Maria_20260421T002358Z",
+  "started_at": "20260421T002358Z",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "steps": [
+    {
+      "step": 1,
+      "screenshot": "sessions/Maria_20260421T002358Z/step_001.png",
+      "reasoning": "As Maria, I need to search for a video from the channel Fern about North Korea. The search bar is clearly visible at the top of the screen, and I should start by clicking on it to enter my search query. I will avoid clicking on any other elements since they might be ads or unrelated options.",
+      "action": {
+        "reasoning": "As Maria, I need to search for a video from the channel Fern about North Korea. The search bar is clearly visible at the top of the screen, and I should start by clicking on it to enter my search query. I will avoid clicking on any other elements since they might be ads or unrelated options.",
+        "action": "click",
+        "bounding_box": [
+          249,
+          15,
+          663,
+          58
+        ],
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 364.8,
+        "y": 29.2
+      },
+      "success": true
+    },
+    {
+      "step": 2,
+      "screenshot": "sessions/Maria_20260421T002358Z/step_002.png",
+      "reasoning": "As Maria, I have already clicked on the search bar in the previous step. Now, I need to type my search query to find a video from the channel Fern about North Korea. The search bar is clearly visible and ready for input.",
+      "action": {
+        "reasoning": "As Maria, I have already clicked on the search bar in the previous step. Now, I need to type my search query to find a video from the channel Fern about North Korea. The search bar is clearly visible and ready for input.",
+        "action": "type",
+        "bounding_box": [
+          236,
+          19,
+          659,
+          57
+        ],
+        "value": "Fern North Korea",
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 358.0,
+        "y": 30.4
+      },
+      "success": true
+    },
+    {
+      "step": 3,
+      "screenshot": "sessions/Maria_20260421T002358Z/step_003.png",
+      "reasoning": "As Maria, I have already typed 'Fern North Korea' into the search bar. The next logical step is to submit the search to find the relevant video. I will press the Enter key to initiate the search.",
+      "action": {
+        "reasoning": "As Maria, I have already typed 'Fern North Korea' into the search bar. The next logical step is to submit the search to find the relevant video. I will press the Enter key to initiate the search.",
+        "action": "press_key",
+        "bounding_box": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "value": "Enter",
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 400.0,
+        "y": 400.0
+      },
+      "success": true
+    },
+    {
+      "step": 4,
+      "screenshot": "sessions/Maria_20260421T002358Z/step_004.png",
+      "reasoning": "As Maria, I have successfully searched for videos from the channel Fern about North Korea. The first video titled 'How to Escape North Korea' appears to be relevant to my search query. I will click on this video to watch it.",
+      "action": {
+        "reasoning": "As Maria, I have successfully searched for videos from the channel Fern about North Korea. The first video titled 'How to Escape North Korea' appears to be relevant to my search query. I will click on this video to watch it.",
+        "action": "click",
+        "bounding_box": [
+          482,
+          139,
+          650,
+          178
+        ],
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 452.8,
+        "y": 126.8
+      },
+      "success": true
+    },
+    {
+      "step": 5,
+      "screenshot": "sessions/Maria_20260421T002358Z/step_005.png",
+      "reasoning": "As Maria, I have successfully found and clicked on a video from the channel Fern about North Korea. The video titled 'How to Escape North Korea' is currently playing, which matches my search query. My goal of finding a relevant video has been achieved.",
+      "action": {
+        "reasoning": "As Maria, I have successfully found and clicked on a video from the channel Fern about North Korea. The video titled 'How to Escape North Korea' is currently playing, which matches my search query. My goal of finding a relevant video has been achieved.",
+        "action": "done",
+        "bounding_box": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "confidence": 1.0
+      },
+      "calculated_center": {
+        "x": 400.0,
+        "y": 400.0
+      },
+      "success": true
+    }
+  ],
+  "outcome": "completed"
+}

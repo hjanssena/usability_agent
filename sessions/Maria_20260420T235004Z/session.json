@@ -1,0 +1,192 @@
+{
+  "persona": {
+    "name": "Maria",
+    "description": "A 60-year-old retiree unfamiliar with technology. Moves slowly, reads everything carefully, often confused by icons without labels. Goal: complete a purchase.",
+    "goal": "Successfully search for 'cat videos' and watch the first result",
+    "traits": [
+      "reads all visible text before clicking",
+      "avoids anything that looks like an ad",
+      "gets confused by modals and popups"
+    ]
+  },
+  "session_id": "Maria_20260420T235004Z",
+  "started_at": "20260420T235004Z",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "steps": [
+    {
+      "step": 1,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_001.png",
+      "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+      "action": {
+        "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+        "action": "click",
+        "bounding_box": [
+          600,
+          23,
+          605,
+          28
+        ],
+        "confidence": 0.5
+      },
+      "calculated_center": {
+        "x": 771.2,
+        "y": 20.4
+      },
+      "success": true
+    },
+    {
+      "step": 2,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_002.png",
+      "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+      "action": {
+        "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+        "action": "click",
+        "bounding_box": [
+          572,
+          24,
+          854,
+          41
+        ],
+        "value": "cat videos",
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 912.6,
+        "y": 26.0
+      },
+      "success": true
+    },
+    {
+      "step": 3,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_003.png",
+      "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+      "action": {
+        "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+        "action": "click",
+        "bounding_box": [
+          594,
+          25,
+          872,
+          42
+        ],
+        "value": "cat videos",
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 938.2,
+        "y": 26.8
+      },
+      "success": true
+    },
+    {
+      "step": 4,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_004.png",
+      "reasoning": "The permission dialog is obstructing the search bar. Maria needs to dismiss this dialog to continue with her goal.",
+      "action": {
+        "reasoning": "The permission dialog is obstructing the search bar. Maria needs to dismiss this dialog to continue with her goal.",
+        "action": "click",
+        "bounding_box": [
+          899,
+          30,
+          915,
+          46
+        ],
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 1161.0,
+        "y": 30.4
+      },
+      "success": true
+    },
+    {
+      "step": 5,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_005.png",
+      "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+      "action": {
+        "reasoning": "Maria needs to search for 'cat videos'. The search bar is the most likely place to start this task.",
+        "action": "click",
+        "bounding_box": [
+          598,
+          24,
+          885,
+          43
+        ],
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 949.1,
+        "y": 26.8
+      },
+      "success": true
+    },
+    {
+      "step": 6,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_006.png",
+      "reasoning": "The 'Listening...' message indicates that the microphone is active, possibly due to a previous search or voice command. Maria needs to dismiss this to proceed with her goal of searching for 'cat videos'.",
+      "action": {
+        "reasoning": "The 'Listening...' message indicates that the microphone is active, possibly due to a previous search or voice command. Maria needs to dismiss this to proceed with her goal of searching for 'cat videos'.",
+        "action": "click",
+        "bounding_box": [
+          899,
+          31,
+          915,
+          47
+        ],
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 1161.0,
+        "y": 31.2
+      },
+      "success": true
+    },
+    {
+      "step": 7,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_007.png",
+      "reasoning": "Maria is trying to search for 'cat videos'. The search bar is the starting point for this task. The current screen shows a sign-in page, which is not relevant to her goal.",
+      "action": {
+        "reasoning": "Maria is trying to search for 'cat videos'. The search bar is the starting point for this task. The current screen shows a sign-in page, which is not relevant to her goal.",
+        "action": "click",
+        "bounding_box": [
+          755,
+          309,
+          1049,
+          343
+        ],
+        "value": "cat videos",
+        "confidence": 0.9
+      },
+      "calculated_center": {
+        "x": 1154.6,
+        "y": 260.8
+      },
+      "success": true
+    },
+    {
+      "step": 8,
+      "screenshot": "sessions/Maria_20260420T235004Z/step_008.png",
+      "reasoning": "The goal is to search for 'cat videos', but the current screen is a sign-in page. Maria needs to navigate away from this page to proceed with her goal.",
+      "action": {
+        "reasoning": "The goal is to search for 'cat videos', but the current screen is a sign-in page. Maria needs to navigate away from this page to proceed with her goal.",
+        "action": "stuck",
+        "bounding_box": [
+          500,
+          500,
+          500,
+          500
+        ],
+        "confidence": 0.8
+      },
+      "calculated_center": {
+        "x": 640.0,
+        "y": 400.0
+      },
+      "success": true
+    }
+  ],
+  "outcome": "stuck"
+}

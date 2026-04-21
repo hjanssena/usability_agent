@@ -1,0 +1,149 @@
+{
+  "persona": {
+    "name": "Maria",
+    "description": "A 60-year-old retiree unfamiliar with technology. Moves slowly, reads everything carefully, often confused by icons without labels. Goal: complete a purchase.",
+    "goal": "Successfully search for 'cat videos' and watch the first result",
+    "traits": [
+      "reads all visible text before clicking",
+      "avoids anything that looks like an ad",
+      "gets confused by modals and popups"
+    ]
+  },
+  "session_id": "Maria_20260421T002208Z",
+  "started_at": "20260421T002208Z",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "steps": [
+    {
+      "step": 1,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_001.png",
+      "reasoning": "As Maria, I need to search for 'cat videos' to achieve my goal. I can see the search bar at the top of the screen with a placeholder text 'Search'. I will click on this search bar to focus it and prepare to type my search query.",
+      "action": {
+        "reasoning": "As Maria, I need to search for 'cat videos' to achieve my goal. I can see the search bar at the top of the screen with a placeholder text 'Search'. I will click on this search bar to focus it and prepare to type my search query.",
+        "action": "click",
+        "bounding_box": [
+          241,
+          15,
+          663,
+          58
+        ],
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 361.6,
+        "y": 29.2
+      },
+      "success": true
+    },
+    {
+      "step": 2,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_002.png",
+      "reasoning": "As Maria, I have successfully clicked on the search bar as planned. Now I need to type my search query 'cat videos' into this focused search field. The search bar is clearly visible at the top of the screen with the placeholder text 'Search', indicating it's ready for input.",
+      "action": {
+        "reasoning": "As Maria, I have successfully clicked on the search bar as planned. Now I need to type my search query 'cat videos' into this focused search field. The search bar is clearly visible at the top of the screen with the placeholder text 'Search', indicating it's ready for input.",
+        "action": "type",
+        "bounding_box": [
+          231,
+          15,
+          664,
+          58
+        ],
+        "value": "cat videos",
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 358.0,
+        "y": 29.2
+      },
+      "success": true
+    },
+    {
+      "step": 3,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_003.png",
+      "reasoning": "As Maria, I have successfully typed 'cat videos' into the search bar. Now I need to submit this search to find the videos. I can see the search button (magnifying glass icon) next to the search bar, which is the standard way to submit a search on YouTube. I will click this button to proceed with my search.",
+      "action": {
+        "reasoning": "As Maria, I have successfully typed 'cat videos' into the search bar. Now I need to submit this search to find the videos. I can see the search button (magnifying glass icon) next to the search bar, which is the standard way to submit a search on YouTube. I will click this button to proceed with my search.",
+        "action": "click",
+        "bounding_box": [
+          678,
+          19,
+          705,
+          57
+        ],
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 553.2,
+        "y": 30.4
+      },
+      "success": true
+    },
+    {
+      "step": 4,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_004.png",
+      "reasoning": "AUTO: broke action cycle by pressing Enter",
+      "action": {
+        "action": "press_key",
+        "value": "Enter",
+        "bounding_box": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "reasoning": "AUTO: broke action cycle by pressing Enter",
+        "confidence": 0.5
+      },
+      "calculated_center": {
+        "x": 400.0,
+        "y": 400.0
+      },
+      "success": true
+    },
+    {
+      "step": 5,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_005.png",
+      "reasoning": "As Maria, I can see the search results for 'cat videos' are now displayed. The first result is a sponsored ad for Cats.com, but below that I can see a section labeled 'Shorts' with multiple cat video thumbnails. Since my goal is to watch the first result, I should click on the first video thumbnail in the Shorts section, which shows a black and white cat near water with the title 'CAT WATER MOMENTS'. This appears to be the first actual video result I can watch.",
+      "action": {
+        "reasoning": "As Maria, I can see the search results for 'cat videos' are now displayed. The first result is a sponsored ad for Cats.com, but below that I can see a section labeled 'Shorts' with multiple cat video thumbnails. Since my goal is to watch the first result, I should click on the first video thumbnail in the Shorts section, which shows a black and white cat near water with the title 'CAT WATER MOMENTS'. This appears to be the first actual video result I can watch.",
+        "action": "click",
+        "bounding_box": [
+          74,
+          602,
+          241,
+          999
+        ],
+        "confidence": 0.85
+      },
+      "calculated_center": {
+        "x": 126.0,
+        "y": 640.4
+      },
+      "success": true
+    },
+    {
+      "step": 6,
+      "screenshot": "sessions/Maria_20260421T002208Z/step_006.png",
+      "reasoning": "As Maria, I can see that I've successfully found and clicked on the first cat video result. The video titled 'RANKING THE FUNNIEST CAT WATER MOMENTS' is now playing, showing a black cat near water with text overlays. Since my goal was to search for 'cat videos' and watch the first result, I have now achieved this goal. The video is playing, which means I've completed my task.",
+      "action": {
+        "reasoning": "As Maria, I can see that I've successfully found and clicked on the first cat video result. The video titled 'RANKING THE FUNNIEST CAT WATER MOMENTS' is now playing, showing a black cat near water with text overlays. Since my goal was to search for 'cat videos' and watch the first result, I have now achieved this goal. The video is playing, which means I've completed my task.",
+        "action": "done",
+        "bounding_box": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "confidence": 0.95
+      },
+      "calculated_center": {
+        "x": 400.0,
+        "y": 400.0
+      },
+      "success": true
+    }
+  ],
+  "outcome": "completed"
+}
