@@ -1,4 +1,4 @@
-# Persona Tester — LLM Vision Agent for Flutter Web Apps
+# Persona Tester — LLM Vision Agent for Web Apps
 
 A Python agent that uses a local **Ollama Qwen-VL** vision model to test a Flutter web app by *looking at screenshots* and acting as a configurable user persona.
 
