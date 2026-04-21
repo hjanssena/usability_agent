@@ -1,6 +1,6 @@
 # Persona Tester — LLM Vision Agent for Web Apps
 
-A Python agent that uses a local **Ollama Qwen-VL** vision model to test a Flutter web app by *looking at screenshots* and acting as a configurable user persona.
+A Python agent that uses a local **Ollama Qwen-VL** vision model to test a web app by *looking at screenshots* and acting as a configurable user persona.
 
 ## How it works
 
@@ -30,10 +30,10 @@ No DOM inspection, no accessibility tree — purely visual.
 ### 1. Pull the Qwen vision model
 
 ```bash
-ollama pull qwen2.5-vl
+ollama pull qwen3.5:cloud 
 ```
 
-> The model name in `config.py` defaults to `qwen2.5-vl`. Change it if you
+> The model name in `config.py` defaults to `qwen3.5:cloud`. Change it if you
 > pulled a different tag (e.g. `qwen2.5-vl:7b`).
 
 ### 2. Install Python dependencies
