@@ -3,7 +3,7 @@ Configuration constants for the persona tester.
 """
 
 # Flutter web app URL
-FLUTTER_URL: str = "https://duckduckgo.com"
+FLUTTER_URL: str = "https://duckduckgo.com/"
 
 # Ollama model name — must be a Qwen-VL variant pulled locally
 OLLAMA_MODEL: str = "qwen3.5:cloud"
