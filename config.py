@@ -3,7 +3,7 @@ Configuration constants for the persona tester.
 """
 
 # Flutter web app URL
-FLUTTER_URL: str = "https://duckduckgo.com/"
+FLUTTER_URL: str = "https://hci.hjanssen.xyz/"
 
 # Ollama model name — must be a Qwen-VL variant pulled locally
 OLLAMA_MODEL: str = "qwen3.5:cloud"
@@ -12,7 +12,7 @@ OLLAMA_MODEL: str = "qwen3.5:cloud"
 OLLAMA_URL: str = "http://localhost:11434"
 
 # Maximum number of agent steps before stopping
-MAX_STEPS: int = 30
+MAX_STEPS: int = 100
 
 # Directory for session logs and screenshots
 SCREENSHOT_DIR: str = "sessions/"
@@ -21,8 +21,8 @@ SCREENSHOT_DIR: str = "sessions/"
 HEADLESS: bool = False
 
 # Viewport dimensions for Playwright
-VIEWPORT_WIDTH: int = 1280
-VIEWPORT_HEIGHT: int = 800
+VIEWPORT_WIDTH: int = 1820
+VIEWPORT_HEIGHT: int = 1000
 
 # Delay (ms) after each action for UI to settle
 ACTION_DELAY_MS: int = 1500
